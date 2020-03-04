@@ -1,0 +1,12 @@
+function palindrome(str) {
+  // Good luck!
+  //using reverse()
+return (str.match(/[a-z0-9]/gi).reverse().toString().toUpperCase()===str.match(/[a-z0-9]/gi).toString().toUpperCase())
+
+}
+
+
+
+palindrome("eye");
+palindrome("My age is 0, 0 si ega ym.")
+palindrome("0_0 (: /-\ :) 0-0")
